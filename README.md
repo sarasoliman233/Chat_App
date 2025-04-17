@@ -1,16 +1,31 @@
-# chat_app
 
-A new Flutter project.
+📱 Chat Application
 
-## Getting Started
+A real-time chat application built with Flutter and Firebase, designed to provide seamless messaging experiences .
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
+![Splash Screen](ScreenShots/SplashScreen.png)
+![Login Screen](ScreenShots/LoginScreen.png)
+![SignUp Screen](ScreenShots/SignUpScreen.png)
+![Chat Screen](ScreenShots/ChatScreen.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🛠️ Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Flutter & Dart
+   Flutter: An open-source UI toolkit by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.
+   Dart: The programming language used to develop Flutter applications.
+
+2. Firebase Services
+   Firebase Authentication: Manages user sign-in and authentication processes.
+   Cloud Firestore: A NoSQL cloud database to store and sync data for client- and server-side development. Used for storing chat messages in real-time.
+  
+3. Additional Tools & Frameworks
+   StreamBuilder: A Flutter widget that builds itself based on the latest snapshot of interaction with a Stream, used here to listen to real-time updates from Firestore and display messages accordingly.
+   ListView & TextField: Flutter widgets used to display a scrollable list of messages and to input text messages, respectively.
+
+   Custom Widgets:
+   ChatBubble: A custom widget designed to display individual chat messages with styling that differentiates between sent and received messages.
+   AppText: A custom text widget used for consistent text styling across the application.
+   🎨 User Interface Components
+
